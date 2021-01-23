@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <style type="text/css">
+      .row-after {
+        margin-bottom: 5px;
+      }
+      .pix
+      {
+        margin-left:270px;
+      }
+      .pix1
+      {
+       margin-left: 4px;
+      }
+    </style>
+</head>
+<body>
+  <div class ="container-fluid bg-primary">
+
+  <div class=" pix row row-after ">
+        <div class="col-md-12 text-light "><h4>Account Type</h4></div>
+      </div>
+    </div>
+	<div class="container ">
+	   <div class="row m-3">
+		  <div class="col-md-6">
+			  <div class="row ">
+				 <div class="col-md-4 bg-primary" >Account Name</div>
+				 <div class="col-md-8">
+                   <input class="form-control required" type="text" />
+                 </div>
+               </div>
+               <div class="row ">
+				 <div class="col-md-4 bg-primary">Account Type</div>
+				 <div class="col-md-8">
+                   <input class="form-control required" type="text" />
+                 </div>
+               </div>
+           </div>
+          <div class="col-md-6">
+			<div class="row">
+				<div class="col-md-4">Is it control Account of Subledger</div>
+				<div class="col-md-8">
+                 <select class="form-control">
+            <option value="0">Select Book Type</option>
+          </select>
+      </div>
+  </div>
+            <div class="row ">
+				 <div class="col-md-4">Income Tax Max Cash Payment Limit</div>
+				 <div class="col-md-8">
+                   <input class="form-control required" type="text" value="0" />
+                 </div>
+               </div>
+
+       </div>
+       <div class="row row-after pix1">
+       	<div class="col-md-4">
+       	  <div class="row">
+       	  	<div class="col-md-4">Balance</div>
+       	  	<div class="col-md-8">
+       	  		<input type="text" name="" class="form-control">
+       	</div>
+       </div>
+       <div class="row">
+       	  	<div class="col-md-4">Balance Date</div>
+       	  	<div class="col-md-8">
+       	  		<input type="datetime-local" name="" class="form-control"/>
+       	</div>
+       </div>
+   </div>
+   <div class="col-md-8">
+   	<div class="row">
+   		<div class="col-md-2">Balance Type</div>
+   		<div class="col-md-4">
+   			  <select class="form-control">
+            <option value="0">Select Book Type</option>
+          </select>
+      </div>
+  </div>
+  <div class="row">
+   		<div class="col-md-2">[dd-mm-yy]</div>
+   	</div>
+</div>
+ 
+  
+</div>
+
+
+<div class="container ">
+     <div class="row">
+      <div class="col-md-6">
+        <div class="row ">
+         <div class="col-md-4">Balance Reconcilation Start from</div>
+         <div class="col-md-8">
+                   <input class="form-control required" type="text" placeholder="Balance Reconcilation Start from" />
+                 </div>
+               </div>
+               <div class="row ">
+         <div class="col-md-4">Balance as per bank</div>
+         <div class="col-md-8">
+                   <input class="form-control required" type="text" value="0.00" />
+                 </div>
+               </div>
+               <div class="row ">
+         <div class="col-md-4">Address</div>
+         <div class="col-md-8">
+                  <textarea id="w3review" class="form-control" name="w3review" rows="4" cols="50">
+
+</textarea>
+                 </div>
+               </div>
+           </div>
+          <div class="col-md-6">
+      <div class="row">
+        <div class="col-md-4">Type</div>
+        <div class="col-md-8">
+                 <select class="form-control">
+            <option value="0">Select Book Type</option>
+          </select>
+      </div>
+  </div>
+            <div class="row ">
+         <div class="col-md-4">Account Number</div>
+         <div class="col-md-8">
+                   <input class="form-control required" type="text" value="0" />
+                 </div>
+               </div>
+ <div class="row ">
+         <div class="col-md-4">No of entry in a voucher<br>[0 for no limit]</div>
+         <div class="col-md-8">
+                  <input class="form-control required" type="text" value="0" />
+                 </div>
+               </div>
+       </div>
+
+    </div>
+</div>
+
+
+<div class="row row-after">
+        <div class="col-md-4">
+          <input
+            type="button"
+            class="btn btn-success form-control"
+            value="Test"
+          />
+        </div>
+        <div class="col-md-4">
+          <input
+            type="button"
+            class="btn btn-primary form-control"
+            value="xyz"
+          />
+        </div>
+        <div class="col-md-4">
+          <input
+            type="button"
+            class="btn btn-warning form-control"
+            value="Close"
+          />
+        </div>
+      </div>
+
+</body>
+</html>
